@@ -1,13 +1,24 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
     cursor: url('12.png') 8 8, auto;
     background-image:url('Background.jpg')
-    
 }
 
-img {width: 200px; height: 200px;}
+
+
+h1 {
+    font-size: xx-large;
+}
+img {width: 200px; height: 200px;
+    text-align: left;
+}
 
 img.big {width: 500px; height: 400px;}
+
+p {
+    color: white;
+    text-align: left;
+}
 
 
 
@@ -24,6 +35,10 @@ a:hover {color: blue;}
 
 ol {color:white;
     font-size:xx-large;}
+
+
+
+
 
 
 
