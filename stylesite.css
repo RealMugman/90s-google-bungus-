@@ -1,19 +1,40 @@
 body {
-    text-align: center;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
     cursor: url('12.png') 8 8, auto;
-    background-image:url('Background.jpg')
+    background-image:url('Background.jpg') 
 }
 
 
-
 h1 {
+    color: white;
     font-size: xx-large;
+    text-align: center;
+    border: 20px;
+}
+h2.line {
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+h2 { 
+    color: white;
+    text-align: center;
 }
 img {width: 200px; height: 200px;
     text-align: left;
 }
 
-img.big {width: 500px; height: 400px;}
+img.big {
+    width: 500px; height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+img.shadow { 
+    box-shadow: 5px 5px 2px rgb(165, 13, 13);
+}
+img.shadow1 {
+    box-shadow: 5px 5px 2px rgb(227, 221, 221);
+}
 
 p {
     color: white;
@@ -22,19 +43,29 @@ p {
 
 
 
-h1 {color: white;}
 
-h2 {color: white;}
+
 
 a {
     color: red;
-    font-size:large;    
+    font-size:large;
 }
 
-a:hover {color: blue;}
+a:hover {
+    color: blue;
+}
 
-ol {color:white;
-    font-size:xx-large;}
+ol, li {color:white;
+    font-size:xx-large;
+    text-align: center;
+}
+
+h2.lineabove {
+    border-top: 2px dotted white;
+    padding-top: 15px;
+}
+
+
 
 
 
