@@ -1,7 +1,30 @@
 body {
-    background-image:url('background.jpg')
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    cursor: url('12.png') 8 8, auto;
+    background-image:url('Background.jpg')
+    
 }
 
 img {width: 200px; height: 200px;}
 
 img.big {width: 500px; height: 400px;}
+
+
+
+h1 {color: white;}
+
+h2 {color: white;}
+
+a {
+    color: red;
+    font-size:large;    
+}
+
+a:hover {color: blue;}
+
+ol {color:white;
+    font-size:xx-large;}
+
+
+
+
